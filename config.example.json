@@ -1,0 +1,25 @@
+{
+  "mode": "paper",
+  "wallet": "bwamJzztZsepfkteWRChggmXuiiCQvpLqPietdNfSXa",
+  "database_path": "data/paper.db",
+  "poll_seconds": 20,
+  "page_size": 70,
+  "discovery_pages": 3,
+  "min_market_cap_usd": 30000,
+  "max_market_cap_usd": 250000,
+  "entry_window_minutes": 5,
+  "position_size_usd": 50,
+  "max_open_positions": 3,
+  "daily_loss_limit_usd": 50,
+  "take_profit_pct": 50,
+  "stop_loss_pct": 30,
+  "max_hold_minutes": 60,
+  "trailing_activation_pct": 30,
+  "trailing_stop_pct": 20,
+  "fee_and_slippage_bps_per_leg": 250,
+  "fixed_cost_usd_per_leg": 0.15,
+  "request_timeout_seconds": 20,
+  "max_http_retries": 4,
+  "pump_api_base": "https://frontend-api-v3.pump.fun"
+}
+

@@ -1,0 +1,155 @@
+{
+  "generated_at": "2026-09-08T17:43:11.776642+00:00",
+  "requested_days": 14,
+  "observed_span_days": 6.175601851851852,
+  "history_truncated_by_source": true,
+  "launches": 1049,
+  "migrations": 35,
+  "migration_rate_pct": 3.336510962821735,
+  "launches_per_observed_day": 169.86198676092448,
+  "migrations_per_observed_day": 5.667463809945049,
+  "ohlcv_usable": 35,
+  "eligible_entries": 28,
+  "filtered_by_entry_market_cap": 7,
+  "missing_ohlcv": 0,
+  "median_migration_delay_minutes": 6.066666666666666,
+  "baseline": {
+    "mean_net_return_pct": -12.2924955357143,
+    "median_net_return_pct": -33.95588125000001,
+    "win_rate_pct": 28.571428571428573,
+    "profit_factor": 0.49318076526139293,
+    "take_profit_count": 8,
+    "stop_loss_count": 20,
+    "max_hold_count": 0
+  },
+  "horizons": {
+    "return_5m_pct": {
+      "sample": 28,
+      "median": -29.364976358238366,
+      "mean": -15.057677895032787,
+      "win_rate_pct": 32.142857142857146
+    },
+    "return_15m_pct": {
+      "sample": 28,
+      "median": -51.95951631759368,
+      "mean": -39.97474367250988,
+      "win_rate_pct": 25.0
+    },
+    "return_60m_pct": {
+      "sample": 28,
+      "median": -89.18972626771404,
+      "mean": -64.15629289885325,
+      "win_rate_pct": 10.714285714285714
+    },
+    "return_360m_pct": {
+      "sample": 28,
+      "median": -91.92972458771423,
+      "mean": -84.0005203801995,
+      "win_rate_pct": 3.5714285714285716
+    }
+  },
+  "daily": {
+    "2026-09-02": {
+      "launches": 244,
+      "migrations": 9
+    },
+    "2026-09-03": {
+      "launches": 268,
+      "migrations": 4
+    },
+    "2026-09-04": {
+      "launches": 154,
+      "migrations": 6
+    },
+    "2026-09-05": {
+      "launches": 71,
+      "migrations": 6
+    },
+    "2026-09-06": {
+      "launches": 62,
+      "migrations": 3
+    },
+    "2026-09-07": {
+      "launches": 141,
+      "migrations": 3
+    },
+    "2026-09-08": {
+      "launches": 109,
+      "migrations": 4
+    }
+  },
+  "sensitivity": [
+    {
+      "name": "instant_50tp_30sl_60m",
+      "entry_delay_seconds": 0,
+      "take_profit_pct": 50,
+      "stop_loss_pct": 30,
+      "max_hold_minutes": 60,
+      "eligible_entries": 35,
+      "mean_net_return_pct": -20.957849821428585,
+      "median_net_return_pct": -33.95588125000001,
+      "win_rate_pct": 17.142857142857142,
+      "profit_factor": 0.25509349927313424
+    },
+    {
+      "name": "delay1m_50tp_30sl_60m",
+      "entry_delay_seconds": 60,
+      "take_profit_pct": 50,
+      "stop_loss_pct": 30,
+      "max_hold_minutes": 60,
+      "eligible_entries": 28,
+      "mean_net_return_pct": -12.2924955357143,
+      "median_net_return_pct": -33.95588125000001,
+      "win_rate_pct": 28.571428571428573,
+      "profit_factor": 0.49318076526139293
+    },
+    {
+      "name": "delay2m_50tp_30sl_60m",
+      "entry_delay_seconds": 120,
+      "take_profit_pct": 50,
+      "stop_loss_pct": 30,
+      "max_hold_minutes": 60,
+      "eligible_entries": 22,
+      "mean_net_return_pct": -6.384299431818201,
+      "median_net_return_pct": -33.95588125000001,
+      "win_rate_pct": 36.36363636363637,
+      "profit_factor": 0.7045439503734184
+    },
+    {
+      "name": "delay5m_50tp_30sl_60m",
+      "entry_delay_seconds": 300,
+      "take_profit_pct": 50,
+      "stop_loss_pct": 30,
+      "max_hold_minutes": 60,
+      "eligible_entries": 16,
+      "mean_net_return_pct": -4.122821918967861,
+      "median_net_return_pct": -33.95588125000001,
+      "win_rate_pct": 37.5,
+      "profit_factor": 0.7920136512476047
+    },
+    {
+      "name": "delay1m_25tp_20sl_15m",
+      "entry_delay_seconds": 60,
+      "take_profit_pct": 25,
+      "stop_loss_pct": 20,
+      "max_hold_minutes": 15,
+      "eligible_entries": 28,
+      "mean_net_return_pct": -10.179122951011225,
+      "median_net_return_pct": -24.47815,
+      "win_rate_pct": 32.142857142857146,
+      "profit_factor": 0.36459936172635643
+    },
+    {
+      "name": "delay1m_100tp_30sl_60m",
+      "entry_delay_seconds": 60,
+      "take_profit_pct": 100,
+      "stop_loss_pct": 30,
+      "max_hold_minutes": 60,
+      "eligible_entries": 28,
+      "mean_net_return_pct": -16.742472715312935,
+      "median_net_return_pct": -33.95588125000001,
+      "win_rate_pct": 14.285714285714286,
+      "profit_factor": 0.42475694591104896
+    }
+  ]
+}
